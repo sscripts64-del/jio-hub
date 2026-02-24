@@ -1,0 +1,130 @@
+- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local BotonAbrir = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local ScriptFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+BotonAbrir.Name = "BotonAbrir"
+BotonAbrir.Parent = ScreenGui
+BotonAbrir.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+BotonAbrir.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BotonAbrir.BorderSizePixel = 0
+BotonAbrir.Position = UDim2.new(0.343503058, 0, 0.0227790866, 0)
+BotonAbrir.Size = UDim2.new(0, 335, 0, -43)
+BotonAbrir.Font = Enum.Font.SciFi
+BotonAbrir.Text = "open jio hub"
+BotonAbrir.TextColor3 = Color3.fromRGB(0, 0, 0)
+BotonAbrir.TextSize = 14.000
+
+UICorner.Parent = BotonAbrir
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = ScreenGui
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+ScriptFrame.BackgroundTransparency = 0.300
+ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrame.BorderSizePixel = 0
+ScriptFrame.Position = UDim2.new(0.165715531, 0, 0.105353072, 0)
+ScriptFrame.Size = UDim2.new(0, 699, 0, 527)
+
+UICorner_2.Parent = ScriptFrame
+
+TextLabel.Parent = ScriptFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(77, 79, 75)
+TextLabel.BackgroundTransparency = 0.300
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 699, 0, 50)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "STEAL A BRAIROT SCRIPT  💎premiun💎"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+UICorner_3.Parent = TextLabel
+
+TextButton.Parent = ScriptFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.010738695, 0, 0.178939179, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 60)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "TP FOWERD"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_4.Parent = TextButton
+
+TextButton_2.Parent = ScriptFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.701001406, 0, 0.178368121, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 60)
+TextButton_2.Font = Enum.Font.SciFi
+TextButton_2.Text = "GUARDAR TP"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_5.Parent = TextButton_2
+
+TextButton_3.Parent = ScriptFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0100143058, 0, 0.588235319, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 60)
+TextButton_3.Font = Enum.Font.SciFi
+TextButton_3.Text = "TP DEL GUARDADO"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_6.Parent = TextButton_3
+
+TextButton_4.Parent = ScriptFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.701001406, 0, 0.588235319, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 60)
+TextButton_4.Font = Enum.Font.SciFi
+TextButton_4.Text = "NOCLIP"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+UICorner_7.Parent = TextButton_4
+
+TextLabel_2.Parent = ScriptFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.905123353, 0)
+TextLabel_2.Size = UDim2.new(0, 699, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "SCRIPT BY ALEX Y SCRIPTS"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+UICorner_8.Parent = TextLabel_2
